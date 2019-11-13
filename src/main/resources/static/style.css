@@ -1,18 +1,27 @@
+.app {
+    display: flex;
+}
+
 .game{
     height: 400px;
     width: 1000px;
     background-color: coral;
 }
 .info{
-
     align-self: flex-start;
     width: 250px;
     background-color: red;
 }
 
 .info__item{
-    display: inline-block;
     height: 50px;
-    width: 80px;
+    width: 100%;
+    margin-bottom: 15px;
     background-color: orange;
 }
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
