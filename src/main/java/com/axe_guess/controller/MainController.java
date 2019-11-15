@@ -1,0 +1,15 @@
+package com.axe_guess.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class MainController {
+
+
+    @GetMapping("/")
+    public String getPage(Model model){
+        return "index";
+    }
+}

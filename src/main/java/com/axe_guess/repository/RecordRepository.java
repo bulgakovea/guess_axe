@@ -1,6 +1,6 @@
-package repository;
+package com.axe_guess.repository;
 
-import model.Record;
+import com.axe_guess.model.Record;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

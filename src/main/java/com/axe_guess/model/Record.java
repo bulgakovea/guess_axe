@@ -1,4 +1,4 @@
-package model;
+package com.axe_guess.model;
 
 import javax.persistence.*;
 
@@ -8,10 +8,11 @@ public class Record {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.AUTO)
-
     private long id;
+
     @Column
     private int score;
+
     @Column
     private String name;
 

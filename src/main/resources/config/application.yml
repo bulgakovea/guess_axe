@@ -1,0 +1,18 @@
+server:
+  port: ${PORT:8080}
+#    context-path: /api чисто тест ебат 3
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: axe_guess
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/guess_axe_db}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:151917b}
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update

@@ -4,21 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Угадай топор</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 
 <body>
     <div class="app">
-        <div class="game"> 
+        <div class="game">
+            <div class="topor" id = "topor_1" onclick="kakoi_topor(1)"></div>
+            <div class="topor" id = "topor_2" onclick="kakoi_topor(2)"></div>
+            <div class="topor" id = "topor_3" onclick="kakoi_topor(3)"></div>
 
         </div>
         <div class="info">
             <div class="info__item">
                 <div class="score">
                     <p class="score__info">
-                        Время: 
+                        Время:
                     </p>
-                    <p class="score__info">
+                    <p id="score" class="score__info">
                         Очки:
                     </p>
                 </div>
@@ -34,5 +37,6 @@
         </div>
     </div>
 </body>
+<script src="../static/script.js"></script>
 
 </html>

@@ -1,15 +1,11 @@
-package service.service_impl;
+package com.axe_guess.service.service_impl;
 
-import model.Record;
+import com.axe_guess.model.Record;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import repository.RecordRepository;
-import service.RecordService;
+import com.axe_guess.repository.RecordRepository;
+import com.axe_guess.service.RecordService;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import java.util.Comparator;
 import java.util.List;
 
 
@@ -27,5 +23,9 @@ public class RecordServiceImpl implements RecordService {
     @Override
     public List<Record> findAllOrderedByScore() {
         return recordRepository.findAllOrderedByScore();
+    }
+    @Override
+    public  Record getOne(Long id){
+        return recordRepository.getOne(id);
     }
 }

@@ -3,7 +3,8 @@
 }
 
 .game{
-    height: 400px;
+    background-image: url("game_screeen.jpg");
+    height:  560px;
     width: 1000px;
     background-color: coral;
 }
@@ -11,6 +12,14 @@
     align-self: flex-start;
     width: 250px;
     background-color: red;
+}
+.topor{
+    margin: 30px 670px;
+    height: 150px;
+    width: 350px;
+    transform: scale(0.7, 0.7);
+    background: url("axe.jpg") no-repeat;
+    background-size:contain;
 }
 
 .info__item{
@@ -23,5 +32,9 @@
 .score {
     display: flex;
     justify-content: space-around;
+}
+.records{
+    background-color: cyan;
+    height: 300px;
 }
 
