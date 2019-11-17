@@ -21,8 +21,8 @@ public class RecordServiceImpl implements RecordService {
     }
 
     @Override
-    public List<Record> findAllOrderedByScore() {
-        return recordRepository.findAllOrderedByScore();
+    public List<Record> findFirst10ByOrderByScoreDesc() {
+        return recordRepository.findFirst10ByOrderByScoreDesc();
     }
     @Override
     public  Record getOne(Long id){

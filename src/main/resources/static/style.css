@@ -1,5 +1,6 @@
 .app {
     display: flex;
+    justify-content: center;
 }
 
 .game{
@@ -22,6 +23,15 @@
     background-size:contain;
 }
 
+.topor_active{
+    margin: 30px 670px;
+    height: 150px;
+    width: 350px;
+    transform: scale(0.7, 0.7);
+    background: url("axe_active.jpg") no-repeat;
+    background-size:contain;
+}
+
 .info__item{
     height: 50px;
     width: 100%;
@@ -35,6 +45,7 @@
 }
 .records{
     background-color: cyan;
-    height: 300px;
+    height: 500px;
+    margin-left: 20px;
 }
 

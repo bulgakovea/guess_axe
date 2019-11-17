@@ -7,5 +7,5 @@ import java.util.List;
 public interface RecordService {
     Record save(Record record);
     Record getOne(Long id);
-    List<Record> findAllOrderedByScore();
+    List<Record> findFirst10ByOrderByScoreDesc();
 }

@@ -1,5 +1,7 @@
 package com.axe_guess.model;
 
+import org.springframework.stereotype.Controller;
+
 import javax.persistence.*;
 
 @Entity
@@ -12,6 +14,9 @@ public class Record {
 
     @Column
     private int score;
+
+    @Column
+    private int numberOfTry;
 
     @Column
     private String name;
@@ -38,5 +43,13 @@ public class Record {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getNumberOfTry() {
+        return numberOfTry;
+    }
+
+    public void setNumberOfTry(int numberOfTry) {
+        this.numberOfTry = numberOfTry;
     }
 }
