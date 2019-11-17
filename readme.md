@@ -1,4 +1,4 @@
-##About
+## About
 
 This is web game based on the [**Gennady Gorin idea**](youtube.com/watch?v=aaD5MBueg6c). Goal of the game - guess the right axe.
 

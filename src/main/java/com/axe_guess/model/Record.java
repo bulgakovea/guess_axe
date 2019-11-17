@@ -1,6 +1,5 @@
 package com.axe_guess.model;
 
-import org.springframework.stereotype.Controller;
 
 import javax.persistence.*;
 
