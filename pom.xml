@@ -49,17 +49,7 @@
             <artifactId>spring-boot-starter-tomcat</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-jasper</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+         <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
         <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -72,43 +62,11 @@
             <version>5.0.12.Final</version>
         </dependency>
 
-
-        <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-jasper</artifactId>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.eclipse.jdt.core.compiler</groupId>
-            <artifactId>ecj</artifactId>
-            <version>4.6.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.webjars/extjs -->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>extjs</artifactId>
-            <version>6.0.0</version>
-        </dependency>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
-            <version>1.5.0-b01</version>
-        </dependency>
     </dependencies>
 
 </project>
