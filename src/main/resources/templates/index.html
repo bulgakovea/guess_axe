@@ -2,41 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"> </meta>
+    <meta charset="UTF-8"></meta>
+    <meta property="og:image" content="/game_screeen.jpg"></meta>
     <title>Угадай топор</title>
-    <link rel="stylesheet" href="/style.css"> </link>
+    <link rel="stylesheet" href="/style.css"></link>
 </head>
 
 <body onload="prepare_game() ">
-    <div class="app">
-        <div class="game">
-            <div class="topor" id = "topor_1" onclick="kakoi_topor(1)"></div>
-            <div class="topor" id = "topor_2" onclick="kakoi_topor(2)"></div>
-            <div class="topor" id = "topor_3" onclick="kakoi_topor(3)"></div>
-
-        </div>
-        <div class="info">
-            <div class="info__item">
-                <div class="score">
-                    <p id="score" class="score__info">
-                        Очки:
-                    </p>
-                    <p id="score_value" class="score__info">
-                        0
-                    </p>
-                </div>
-            </div>
-            <div class="info__item">
-                <div class="records">
-                    <div class="records__record">
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div></div>
+<div class="app">
+    <div class="game">
+        <div class="topor" id="topor_1" onclick="kakoi_topor(1)"></div>
+        <div class="topor" id="topor_2" onclick="kakoi_topor(2)"></div>
+        <div class="topor" id="topor_3" onclick="kakoi_topor(3)"></div>
     </div>
+
+    <div class="info">
+        <div class="info__item">
+            <div class="score">
+                <p id="score" class="score__info">
+                    Очки:
+                </p>
+                <p id="score_value" class="score__info">
+                    0
+                </p>
+            </div>
+
+        </div>
+        <div class="info__item">
+            <div class="score">
+                <p>
+                    Попыток осталось:
+                </p>
+                <p id="attempt_count">
+                    5
+                </p>
+            </div>
+        </div>
+        <div class="info__item">
+            <div class="records">
+                <div class="records__record">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="link_box">
+    <a href="https://www.twitch.tv/enjua_b">Twitch</a>
+    <a href="https://github.com/Enjua/guess_axe">Git</a>
+    <a href="https://vk.com/enjua">VK</a>
+</div>
 </body>
 <script src="/script.js"></script>
 <script src="/jquery_min.js" type="text/javascript"></script>
