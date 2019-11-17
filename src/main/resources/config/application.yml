@@ -9,7 +9,7 @@ spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/guess_axe_db}
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
-    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:151917b}
   jpa:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
