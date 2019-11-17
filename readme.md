@@ -1,6 +1,6 @@
 ## About
 
-This is web game based on the [**Gennady Gorin idea**](youtube.com/watch?v=aaD5MBueg6c). Goal of the game - guess the right axe.
+This is web game based on the [**Gennady Gorin idea**](https://www.youtube.com/watch?v=aaD5MBueg6c). Goal of the game - guess the right axe.
 
 ## Requirements
 
@@ -29,6 +29,6 @@ Now you can debug front on [http://localhost:3000](http://localhost:3000) with h
 
 ## Heroku
 
-Now the [**application is deployed at Heroku**](guessaxe.herokuapp.com/).
+Now the [**application is deployed at Heroku**](https://guessaxe.herokuapp.com/).
 
 You can submit info about bug on repository issues page.
