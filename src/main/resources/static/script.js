@@ -51,7 +51,7 @@ function stop_game() {
     fetch_records();
     alert("Вы проиграли");
     if (confirm('Еще разочек?')) {
-        gameRestart();
+        game_restart();
 
     } else {
         // Do nothing!
@@ -59,12 +59,10 @@ function stop_game() {
     }
 }
 
-function gameRestart() {
-    console.log()
+function game_restart() {
     $('#score_value').text(0);
     $('#attempt_count').text(5);
     get_record_id();
-    disabled = false;
 }
 
 function fill_records() {
@@ -81,7 +79,7 @@ function fill_records() {
 function fetch_records() {
     var record_element = $('.records__record');
     record_element.empty();
-    fill_records()
+    fill_records();
 }
 
 function fill_list(data) {
