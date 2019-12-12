@@ -8,5 +8,5 @@ public interface RecordService {
     Record save(Record record);
     Record getOne(Long id);
 
-    List<Record> findFirst15ByOrderByScoreDesc();
+    List<Record> findFirst20ByOrderByScoreDesc();
 }

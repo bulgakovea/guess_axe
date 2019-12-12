@@ -23,8 +23,8 @@ public class RecordServiceImpl implements RecordService {
     }
 
     @Override
-    public List<Record> findFirst15ByOrderByScoreDesc() {
-        return recordRepository.findFirst15ByOrderByScoreDesc();
+    public List<Record> findFirst20ByOrderByScoreDesc() {
+        return recordRepository.findFirst20ByOrderByScoreDesc();
     }
     @Override
     public  Record getOne(Long id){
