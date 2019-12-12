@@ -26,7 +26,7 @@ public class GameController {
 
     @RequestMapping(value = "/recordsByScore", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<List<Record>> getRecordsByScore() {
-        List<Record> result = recordService.findFirst15ByOrderByScoreDesc();
+        List<Record> result = recordService.findFirst20ByOrderByScoreDesc();
         return new ResponseEntity<>(result, HttpStatus.OK);
     }
 
