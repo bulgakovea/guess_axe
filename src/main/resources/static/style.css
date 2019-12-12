@@ -9,10 +9,12 @@
     width: 1000px;
     background-color: coral;
 }
+
 .info{
     align-self: flex-start;
     width: 250px;
 }
+
 .topor{
     margin: 30px 670px;
     height: 150px;
@@ -51,12 +53,8 @@
     display: flex;
     justify-content: space-around;
 }
+
 .link_box{
     margin: 20px auto auto;
     width: 10%;
-}
-a.link_box{
-    font-size: 100px;
-    padding-left: 10px;
-    background-color: red;
 }
