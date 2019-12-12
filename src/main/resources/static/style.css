@@ -34,17 +34,29 @@
 .info__item{
     height: 50px;
     width: 100%;
-    margin-bottom: 15px;
+    border: 1px black outset;
+    margin: 0 0 5px 3px;
     background-color: orange;
+}
+
+.record_wrapper{
+    height: 444px;
+    width: 100%;
+    border: 1px black outset;
+    margin: 0 0 5px 3px;
+    background-color: bisque;
 }
 
 .score {
     display: flex;
     justify-content: space-around;
 }
-.records{
-    background-color: cyan;
-    height: 430px;
+.link_box{
+    margin: 20px auto auto;
+    width: 10%;
 }
-
-
+a.link_box{
+    font-size: 100px;
+    padding-left: 10px;
+    background-color: red;
+}

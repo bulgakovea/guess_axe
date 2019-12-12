@@ -49,7 +49,6 @@ function kakoi_topor(topor) {
 
 function stop_game() {
     fetch_records();
-    alert("Вы проиграли");
     if (confirm('Еще разочек?')) {
         game_restart();
 
