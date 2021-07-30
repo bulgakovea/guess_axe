@@ -7,7 +7,7 @@ spring:
   application:
     name: axe_guess
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/guess_axe_db}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/guess_axe_db?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory}
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
     password: ${SPRING_DATASOURCE_PASSWORD:postgres}
   jpa:
